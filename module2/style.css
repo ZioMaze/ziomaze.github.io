@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+     }
+    h1{
+        margin-bottom: 70px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 3em;
+        text-align: center;
+    }
+   
+    div#container{
+
+        background-color:grey;
+        margin-bottom: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
+        border: 3px solid black;
+        position: relative;
+        width: 370px;
+        height: 250px;
+        float: left;
+    }
+    .row {
+        width: 100%;
+    }
+    p{
+       font-family: Arial, Helvetica, sans-serif; 
+       color: black;
+       font-size: 2em;
+       text-align: center;
+       position: relative;
+       width: 150px;
+       height: 35px;
+       border: 1px solid black;
+       margin-bottom: 20px;
+       float: right;
+       }
+
+    #p1 {
+        background-color: blueviolet;
+        
+        
+    }
+
+     #p2 {
+        background-color: goldenrod;
+     }
+
+     #p3 {
+        background-color: pink;
+        }
+
+    section {
+        margin-top: 50px;
+        text-align: justify;
+        margin-top: 70px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+     @media (min-width:992px) {
+        .col-lg-1, .col-lg-2, .col-lg-3 {
+        float: left;
+        border: 2px solid black;
+        }
+        .col-lg-1 {
+          width:8.33% ;
+        }
+        .col-lg-2 {
+          width:16.66% ;
+        }
+        .col-lg-3 {
+            width: 25%;
+        }
+    }
+    @media (min-width: 768px) and (max-width: 991px) {
+        .col-md-1, .col-md-2, .col-md-3{
+            float: left;
+            border: 2px solid black;
+        }
+        .col-md-1 {
+            width: 8.33%;
+        }
+        .col-md-2 {
+            width: 16.66%;
+        }
+        .col-md-3 {
+            width: 25%;
+        }
+    }
+    @media(max-width767px) {
+        .col-sm-1, .col-sm-2, .col-sm-3 {
+            float: left;
+            border: 2px solid black;
+        }
+        .col-sm-1 {
+            width: 8.33%;
+        }
+        .col-sm-2 {
+            width: 16.66%;
+        }
+        .col-sm-3 {
+            width: 25%;
+        }
+    }
